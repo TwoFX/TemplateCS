@@ -1,6 +1,6 @@
 ﻿/*
  * Copyright (C) 2014-2016 Markus Himmel
- * This file is distributed un der the terms of the MIT license
+ * This file is distributed under the terms of the MIT license
  */
 
 #define CodeJam
@@ -24,33 +24,11 @@ namespace ProgrammingCompetitions
 		{
 		}
 
-		static bool check(char[] s)
-		{
-			for (int i = 0; i < 26; i++)
-			{
-				char t = (char)('a' + i);
-				int last = -1;
-				for (int j = 0; j < s.Length; j++)
-				{
-					if (s[j] != t) continue;
-
-					if (last != -1 && j != last + 1)
-						return false;
-
-					last = j;
-				}
-			}
-			return true;
-		}
-
 		static string solveCase(int num)
 		{
 			checked
 			{
-				int n;
-				read(out n);
-				var s = readMany<string>();
-				return s.Permutations().Select(x => x.SelectMany(id).ToArray()).Where(x => check(x)).Count().ToString();
+				return null;
 			}
 		}
 #endif
