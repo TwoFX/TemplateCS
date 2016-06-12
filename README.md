@@ -10,13 +10,13 @@ The boilerplate code mainly helps with these things:
 
 1. Input and Output. There are functions for reading input in various forms
 with minimal pain. For Google Code Jam, the handling of input and output files
-is handled so that only a single test case has to be considered by the
-programmer at any point.
+is done so that only a single test case has to be considered by the programmer
+at any point.
 
 2. Rapid brute force. Numerous methods and extension methods are provided that
 enable quickly iterating over the problem space of a given task. These include
-simple functions such as generating all combinations and ermutations of a
-collection but also slightly more advanced oerations such as a rather versatile
+simple functions such as generating all combinations and permutations of a
+collection but also slightly more advanced operations such as a rather versatile
 method for generating cartesian products.
 
 3. Common patterns. Some rather common patterns which can be factored out, such
